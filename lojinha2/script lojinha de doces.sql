@@ -33,4 +33,9 @@ select produto,quantidade,valor from produtos order by produto;
 update produtos set valor=3.85 where codigo=2;
 
 delete from produtos where codigo=6;
+
+select * from produtos;
+
+insert into produtos (produto,quantidade,valor)
+values ('chiclete ','22','0.50');
     
